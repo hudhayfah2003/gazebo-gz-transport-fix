@@ -1,0 +1,12 @@
+[Unit]
+Description=Enable multicast on loopback for Gazebo/ROS discovery
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/sbin/ip link set lo multicast on
+ExecStart=-/usr/sbin/ip route add 224.0.0.0/4 dev lo
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
