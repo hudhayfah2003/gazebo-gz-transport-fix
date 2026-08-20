@@ -106,6 +106,12 @@ Gazebo now launches to a rendered 3D scene at a real-time factor of ~99%.
 
 Every symptom points at the GPU: a frozen window, a ghosted frame, a hung renderer. Nothing in the visible behaviour suggests networking. The only signal pointing at the transport layer is a single line in the log, and it is easy to scroll past.
 
+## Used in
+
+This fix was required to bring up the simulation environment in
+[rover-ws](https://github.com/hudhayfah2003/rover-ws) — an autonomous
+four-wheeled vehicle graduation project.
+
 ---
 
 **Author:** Huthaifa Foudeh — Mechanical Engineering, Robotics & Autonomous Systems
