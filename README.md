@@ -109,7 +109,7 @@ Every symptom points at the GPU: a frozen window, a ghosted frame, a hung render
 ## Used in
 
 This fix was required to bring up the simulation environment in
-[rover-ws](https://github.com/hudhayfah2003/rover-ws) — an autonomous
+[rover-ws](https://github.com/huthaifa-foudeh/rover-ws) — an autonomous
 four-wheeled vehicle graduation project.
 
 ---
